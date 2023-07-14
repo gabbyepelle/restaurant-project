@@ -1,18 +1,24 @@
 {
   "name": "restaurant-project",
+  "repository": {
+    "url": "https://github.com/gabbyepelle/restaurant-project/tree/main"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "deploy-demo": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css": "^3.0.0",
     "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
     "loader": "^2.1.1",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.1",
