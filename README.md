@@ -1,5 +1,7 @@
 ## Restaurant Page
-# A page for a restaurant made with HTML, CSS, JavaScript and Webpack as part of The Odin Project
+A page for a restaurant made with HTML, CSS, JavaScript and Webpack as part of The Odin Project
+
+👉 https://gabbyepelle.github.io/restaurant-project/
 
 # Photo Credits
 
