@@ -1,3 +1,8 @@
+## Restaurant Page
+# A page for a restaurant made with HTML, CSS, JavaScript and Webpack as part of The Odin Project
+
+# Photo Credits
+
 Photo by cottonbro studio: https://www.pexels.com/photo/close-up-of-a-food-being-cooked-3297885/
 
 Photo by cottonbro studio: https://www.pexels.com/photo/person-holding-blue-and-silver-pen-and-orange-carrot-3296410/
